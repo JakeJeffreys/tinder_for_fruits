@@ -1,0 +1,2 @@
+#!/bin/bash
+scp -r * lorimorb@flip.engr.oregonstate.edu:~/public_html/fruitsandvegetables

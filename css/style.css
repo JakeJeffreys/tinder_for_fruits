@@ -1,0 +1,113 @@
+form
+{
+    width: 100%;
+}
+.centered
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+ul { /* Used for spacing when outputting the ordered list */
+	margin-left: 0;
+  	padding-left: 0;
+  	line-height: 15px;
+    text-align: center;
+	list-style-position: inside;
+}
+div.recs {
+	padding-top: 30px; /* distance from the bottom of the menu bar */
+  	width: 28em; /* How much text is outputted per line */
+  	font-size: 20px;
+}
+.title
+{
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.top-40
+{
+    margin-top: 40px;
+}
+.top-20
+{
+    margin-top: 20px;
+}
+.item-box
+{
+    margin-top: 40px;
+}
+.item-box img
+{
+    max-height: 400px;
+    max-width: 100%;
+    display: block;
+    margin: 20 auto 0 auto;
+}
+.item-box .title
+{
+    text-align: center;
+}
+.item-box .swipe-icon
+{
+    text-align: center;
+    font-size: 2rem;
+}
+.item-box .swipe-icon:hover
+{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.item-box .swipe-icon.green
+{
+    color: rgb(76, 175, 80);
+}
+.item-box .swipe-icon.red
+{
+    color: rgb(244, 67, 54);
+}
+.item-box table
+{
+    width: 100%;
+}
+.item-box table td
+{
+    width: 60%;
+}
+.item-box table td:first-child, .item-box table td:first-child
+{
+    width: 20%;
+}
+.item-box table td .spinner-container
+{
+    width: 100%;
+    height: 400px;
+    display: none;
+}
+.item-box table td .spinner-container .mdl-spinner
+{
+    margin-top: 180px;
+    margin-left: calc(50% - 20px);
+}
+.error
+{
+    color: red;
+    font-weight: 700;
+}
+.username
+{
+    margin-right: 10px;
+    margin-left: 5px;
+}
+.user
+{
+    margin-left: 20px;
+}
+.recommendations table
+{
+    width: 100%;
+}
+.recommendations table th, .recommendations table td
+{
+    text-align: left;
+}
